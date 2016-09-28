@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vibhor.sabsebadagenius.Q2">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Q2.Identify the logo"
+        android:id="@+id/t_logo"
+        android:layout_alignParentTop="true"/>
+
+
+    <ImageView
+        android:id="@+id/ilogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerInside"
+        android:src ="@drawable/t"/>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="16"
+        android:id="@+id/stuans"
+        android:hint="Answer"
+        android:layout_below="@+id/ilogo"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Question"
+        android:id="@+id/b_nq3"
+        android:onClick="checkanswer"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false" />
+</RelativeLayout>
