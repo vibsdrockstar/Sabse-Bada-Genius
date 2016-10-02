@@ -9,7 +9,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
-public class Q6 extends AppCompatActivity {
+public class Q7 extends AppCompatActivity {
     RadioGroup rg;
     RadioButton rb;
     Button b_nq8;
@@ -28,7 +28,7 @@ public class Q6 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                if(rb.getText().toString().equals("VSS Mani"))
+                if(rb.getText().toString().equals("msdhoni"))
                 {
                     Toast.makeText(Q6.this, "Correct answer +5", Toast.LENGTH_SHORT).show();
 
